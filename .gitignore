@@ -17,3 +17,6 @@
 
 # Ignore application configuration
 /config/application.yml
+
+#igone file uploaded on local host
+/public/system
