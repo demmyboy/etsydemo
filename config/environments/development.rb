@@ -31,4 +31,7 @@ Etsydemo::Application.configure do
   config.assets.debug = true
 
   Paperclip.options[:command_path] = "C:\\Program Files\\ImageMagick-6.8.9-Q16" 
+	#required by devise 
+  config.action_mailer.default_url_options = { host: 'localhost:3000' }
+   
 end
